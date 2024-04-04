@@ -1,0 +1,21 @@
+{
+  "name": "appdif-huetamo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.19.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
