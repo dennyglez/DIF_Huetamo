@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="login-form">
+        <h1><strong>DIF Municipal</strong></h1>
+        <!-- En la vista de inicio de sesión (login.ejs) -->
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <h2>Iniciar sesión</h2>
+                    <form action="loginS" method="post">
+                        <input type="email" name="email" placeholder="correo" required autofocus>
+                        <input type="password" name="password" placeholder="Contraseña" required>
+                        <button class="btn" type="submit">Iniciar sesión</button>
+                    </form>
+                    <p class="cuenta">¿No tienes una cuenta? <a href="/registro.ejs">Registrarse</a></p>
+                </div>
+                <div class="form-img">
+                    <img src="./img/Logo.jpg" alt="Logotipo">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
